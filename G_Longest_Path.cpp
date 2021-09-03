@@ -12,7 +12,7 @@ void dfs(vector<int>* g, vector<bool>& vis, vector<int>& dp, int u) {
     }
 }
 
-signed main() {
+int32_t main() {
     ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     int n, m, u, v;
     cin >> n >> m;
